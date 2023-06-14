@@ -1,0 +1,15 @@
+hadoop fs -ls \<path>*: Lists files and directories in the specified path in HDFS.
+
+hadoop fs -mkdir \<path>*: Creates a new directory in HDFS at the specified path.
+
+hadoop fs -put \<local-path> \<hdfs-path>*: Copies a file or directory from the local file system to HDFS.
+
+hadoop fs -get \<hdfs-path> \<local-path>*: Copies a file or directory from HDFS to the local file system.
+
+hadoop fs -cat \<file>*: Displays the contents of a file stored in HDFS.
+
+hadoop fs -rm \<path>*: Deletes a file or directory from HDFS.
+
+hadoop fs -mv \<src> \<dest>*: Moves or renames a file or directory in HDFS.
+
+hadoop fs -chown \<owner> \<path>*: Changes the owner of a file or directory in HDFS.
